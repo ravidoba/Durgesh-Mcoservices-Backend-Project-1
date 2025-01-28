@@ -1,0 +1,9 @@
+2025-01-28 13:52:41 [http-nio-8092-exec-3] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:42 [http-nio-8092-exec-5] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:42 [http-nio-8092-exec-4] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:42 [http-nio-8092-exec-6] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:42 [http-nio-8092-exec-7] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:42 [http-nio-8092-exec-9] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:42 [http-nio-8092-exec-10] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:43 [http-nio-8092-exec-8] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
+2025-01-28 13:52:43 [http-nio-8092-exec-1] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits

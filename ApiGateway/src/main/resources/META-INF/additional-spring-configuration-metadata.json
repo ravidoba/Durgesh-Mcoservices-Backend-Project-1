@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "management.tracing.export.zipkin.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.tracing.export.zipkin.enabled'"
+  },
+  {
+    "name": "management.tracing.export.zipkin.endpoint",
+    "type": "java.lang.String",
+    "description": "A description for 'management.tracing.export.zipkin.endpoint'"
+  }
+]}

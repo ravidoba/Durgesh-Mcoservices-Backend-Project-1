@@ -88,6 +88,7 @@
 		    <artifactId>spring-cloud-loadbalancer</artifactId>
 		</dependency>
 		
+		<!--RATE-LIMITER-->		
 		 <dependency>
 	      <groupId>org.springframework.boot</groupId>
 	      <artifactId>spring-boot-starter-actuator</artifactId>
@@ -103,6 +104,34 @@
 		    <artifactId>resilience4j-spring-boot2</artifactId>
 		</dependency>
 		
+		<!--ZIPKIN-->
+		<!-- Open Telemetry - Simplified Observability (metrics, logs, and traces) -->
+<!--		<dependency>
+		    <groupId>io.micrometer</groupId>
+		    <artifactId>micrometer-observation</artifactId>
+		</dependency>
+
+		<dependency>
+		    <groupId>io.micrometer</groupId>
+		    <artifactId>micrometer-tracing-bridge-otel</artifactId>
+		</dependency>
+
+		<dependency>
+		    <groupId>io.opentelemetry</groupId>
+		    <artifactId>opentelemetry-exporter-zipkin</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.openfeign</groupId>
+			<artifactId>feign-micrometer</artifactId>
+		</dependency>
+-->
+		<!--KAFKA-->
+		<dependency>
+		    <groupId>org.springframework.kafka</groupId>
+		    <artifactId>spring-kafka</artifactId>
+		</dependency>
+
 	</dependencies>
 	
 	 <dependencyManagement>
@@ -122,6 +151,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+				    <image>
+				        <name>ravidobariya333/durgesh-ms1-quiz-service:latest</name>
+				    </image>
+				    <pullPolicy>IF_NOT_PRESENT</pullPolicy>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

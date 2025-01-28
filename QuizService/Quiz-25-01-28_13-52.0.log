@@ -1,0 +1,6 @@
+2025-01-28 13:52:22 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.q.QuizService.kafka.KafkaConsumer - Consumer Received Message: hi-Rajvir-d1
+2025-01-28 13:52:22 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.q.QuizService.kafka.KafkaConsumer - Consumer Received Message: hi-Rajvir-d2
+2025-01-28 13:52:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.q.QuizService.kafka.KafkaConsumer - Consumer Received Message: hi-Rajvir-d1
+2025-01-28 13:52:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.q.QuizService.kafka.KafkaConsumer - Consumer Received Message: hi-Rajvir-d2
+2025-01-28 13:52:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.q.QuizService.kafka.KafkaConsumer - Consumer Received Message: hi-Rajvir-d1
+2025-01-28 13:52:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ERROR c.q.QuizService.kafka.KafkaConsumer - Consumer Received Message: hi-Rajvir-d2

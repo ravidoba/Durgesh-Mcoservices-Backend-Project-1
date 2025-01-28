@@ -20,6 +20,7 @@ import com.quiz.QuizService.entities.Quiz;
 import com.quiz.QuizService.service.QuizService;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 import io.github.resilience4j.retry.annotation.Retry;
 import lombok.extern.slf4j.Slf4j;
 
@@ -33,7 +34,7 @@ public class QuizController {
     private QuizService quizService;
 
     @GetMapping
-    @CircuitBreaker(name = "getAllQuizzesCircuitBreaker", fallbackMethod = "getAllQuizzesFallbackMethod")
+//    @CircuitBreaker(name = "getAllQuizzesCircuitBreaker", fallbackMethod = "getAllQuizzesFallbackMethod")
     public ResponseEntity<List<Quiz>> getAllQuizzes() {
         log.info("getAllQuizzes() called");
         List<Quiz> quizzes = quizService.getAllQuizzes();
@@ -53,7 +54,8 @@ public class QuizController {
     int retryCount = 1;
 
     @GetMapping("/{id}")
-    @Retry(name = "getQuizByIdRetry", fallbackMethod = "handleGetQuizByIdRetryRetryFallback")
+//    @Retry(name = "getQuizByIdRetry", fallbackMethod = "handleGetQuizByIdRetryRetryFallback")
+//    @RateLimiter(name="getQuizByIdRateLimiter",fallbackMethod = "handleGetQuizByIdRetryRetryFallback")
     public ResponseEntity<Quiz> getQuizById(@PathVariable Long id) {
         log.info("getQuizById() called with id: {}", id);
         log.info("Retry count is : {}", retryCount);

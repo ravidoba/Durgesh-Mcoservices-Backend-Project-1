@@ -1,0 +1,2 @@
+2025-01-28 13:50:26 [http-nio-8092-exec-1] ERROR c.q.Q.controller.QuestionController - getAllQuestions Called ::2025-01-28T13:50:26.361114
+2025-01-28 13:50:42 [http-nio-8092-exec-1] ERROR c.q.Q.kafka.KafkaController - 2Producer Messages sent to Kafka topic: fruits
